@@ -1,0 +1,44 @@
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+\fontdir[fonts/]
+
+\colorlet{awesome}{awesome-skyblue}
+\definecolor{awesome}{HTML}{634D90}
+
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\makeatletter
+\patchcmd{\@sectioncolor}{\color}{\mdseries\color}{}{}
+\makeatother
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\photo[rectangle,noedge,right]{profile.png}
+\name{Henrique Miranda}{}
+\position{Full Stack Developer \& Designer}
+
+\address{Rua Renovato Gonçalves de Lima, Nº 208, Montadas - PB}
+\mobile{(83) 98623-9312}
+\email{me@thehenry.dev}
+
+\homepage{thehenry.dev}
+\github{henry-ns}
+\linkedin{henry-ns}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[L]
+
+
+\end{document}
