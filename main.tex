@@ -10,13 +10,6 @@
 
 \setbool{acvSectionColorHighlight}{true}
 
-% If you would like to change the social information separator from a pipe (|) to something else
-\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
-
-\makeatletter
-\patchcmd{\@sectioncolor}{\color}{\mdseries\color}{}{}
-\makeatother
-
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
 %	Comment any of the lines below if they are not required
@@ -39,6 +32,11 @@
 % Print the header with above personal informations
 % Give optional argument to change alignment(C: center, L: left, R: right)
 \makecvheader[L]
+
+\makecvfooter
+  {\today}
+  {Henrique M. Miranda~~~·~~~Currículo}
+  {\thepage}
 
 \input{sections/summary.tex}
 \input{sections/education.tex}
