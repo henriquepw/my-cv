@@ -93,8 +93,8 @@
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations
 %-------------------------------------------------------------------------------
-% Configure a directory location for fonts(default: 'fonts/')
-\newcommand*{\fontdir}[1][fonts/]{\def\@fontdir{#1}}
+% Configure a directory location for fonts(default: 'assets/fonts/')
+\newcommand*{\fontdir}[1][assets/fonts/]{\def\@fontdir{#1}}
 \fontdir
 
 
