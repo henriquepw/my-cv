@@ -1,11 +1,9 @@
 <h1 align="center">
-  <img alt="AwesomeCV" src="./assets/profile.png" width="160px" height="160px" style="border-radius: 50%;" />
-  <br />
   My Curriculum
 </h1>
 
 <p align="center">
-  My resume based on <a href="https://github.com/posquit0/Awesome-CV">Awesome CV</a>
+  Based on <a href="https://github.com/posquit0/Awesome-CV">Awesome CV</a>
 </p>
 
 <div align="center">
