@@ -6,13 +6,42 @@
   Based on <a href="https://github.com/posquit0/Awesome-CV">Awesome CV</a>
 </p>
 
-<div align="center">
-  <a href="https://github.com/henry-ns/my-cv/blob/master/main.pdf">
-    <img alt="Example Resume" src="https://img.shields.io/badge/resume-pdf-green.svg" />
-  </a>
-</div>
-
 <br />
+
+<!-- Badges -->
+<p align="center">
+  <a href="https://github.com/henry-ns/my-cv/blob/master/main.pdf">
+    <img alt="Example Resume" src="https://img.shields.io/badge/resume-pdf-1EAE72.svg" />
+  </a>
+
+  <a href="https://github.com/henry-ns/my-cv/graphs/commit-activity" alt="Maintenance">
+    <img src="https://img.shields.io/badge/Maintained%3F-yes-1EAE72.svg" />
+  </a>
+
+  <!-- License -->
+  <a href="./LICENSE" alt="License: MIT">
+    <img src="https://img.shields.io/badge/License-MIT-1EAE72.svg" />
+  </a>
+
+  <br/>
+
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/henry-ns/my-cv?color=blue">
+
+  <!-- version -->
+  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/henry-ns/my-cv">
+
+  <!-- GitHub repo size -->
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/henry-ns/my-cv">
+
+</p>
+
+<!-- summary -->
+<p align="center">
+  <a href="#-what-is-awesome-cv">What is</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#bulb-how-to-use">How to use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-credit">Credit</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
 
 ## 🧐 What is Awesome CV?
 
@@ -48,3 +77,12 @@ This should result in the creation of ``{your-cv}.pdf``
 [**Roboto**](https://github.com/google/roboto) is the default font on Android and ChromeOS, and the recommended font for Google’s visual language, Material Design.
 
 [**Source Sans Pro**](https://github.com/adobe-fonts/source-sans-pro) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.
+
+
+## :memo: License
+
+This project is under the MIT license. See the file [LICENSE](LICENSE) for more details.
+
+---
+
+Build with 💙 By [Henrique Martins](http://thehenry.dev/)
